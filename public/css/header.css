@@ -1,0 +1,38 @@
+header{
+    background-color: var(--negro);
+    width: 100%;
+    padding: 8rem 0rem;
+}
+header .contenedor-header{
+    width: 90%;
+    margin: auto;
+}
+header .contenedor-textos{
+    padding-top: 3rem;
+}
+header div .txt-sonido-header{
+    color: var(--blanco);
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+}
+header .contenedor-textos h1{
+    color: transparent;
+    background: linear-gradient(to right, var(--primario) 0%, var(--secundario) 100% );
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    font-size: 4rem;
+}
+header .contenedor-textos .txt-sobre{
+    color: var(--blanco);
+    text-align: center;
+}
+header .contenedor-textos .txt-precio{
+    color: var(--blanco);
+    text-align: center;
+}
+header .contenedor-textos .txt-precio span{
+    font-size: 4rem;
+    font-weight: 900;
+}
